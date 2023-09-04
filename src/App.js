@@ -13,9 +13,9 @@ const Person = (props) => {
 const App = () => {
   return (
     <div className="App">
-      <Person name = "John" lastname = "doe" age = "30"/>
-      <Person name = "Jane" lastname = "stone" age = "19"/>
-      <Person name = "Jenny" lastname = "olson" age = "40"/>
+      <Person name = "John" lastname = "doe" age = {30}/>
+      <Person name = "Jane" lastname = "stone" age = {19}/>
+      <Person name = "Jenny" lastname = "olson" age = {40}/>
     </div>
   );
 }
