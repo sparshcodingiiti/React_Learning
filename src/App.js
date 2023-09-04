@@ -5,7 +5,10 @@ const App = () => {
   const isNameShowing = true;
   return (
     <div className="App">
-      <h1>Hello World, {isNameShowing?name:"Error"}</h1>
+    {name ?
+    <p>You are there</p>: <p>You are not there</p>
+    }
+      <h1>Hello, {isNameShowing?name:"Someone!!!"}</h1>
     </div>
   );
 }
